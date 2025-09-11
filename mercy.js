@@ -13,3 +13,10 @@ hamburger.addEventListener('click', () => {
     }
 }
 );
+/* Hamburger menu JS toggle (add to mercy.js) */
+document.querySelector('.hamburger').onclick = function() {
+  document.getElementById('nav-links').style.display =
+    document.getElementById('nav-links').style.display === 'flex' ? 'none' : 'flex';
+};
+
+/* ...existing code... */
